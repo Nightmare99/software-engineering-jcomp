@@ -71,7 +71,7 @@ div.page2{
 	float:left;
 	border-spacing:15px;
 	margin-right: 90px;
-	width:45%;
+	width:65%;
 }
 h1{
 	font-family:"Courier";
@@ -244,7 +244,7 @@ input.class2 {
 	padding-left:10px;
 	padding-top:5px;
 	padding-bottom:5px;
-	left: 75%;
+	left: 70%;
 	position: absolute;
 }
 input.headerText{
@@ -261,10 +261,29 @@ form{
 	border: solid;
 	border-radius: 30px;
 	width: 40%;
-	padding-left:5%;
 	padding-top:5%;
 	padding-bottom:3%;
 	font-family:"Lucida";
 	font-size:23px;
 	margin-left: 30%;
+	padding-left: 5%;
+}
+form.login{
+	border: solid;
+	border-color: grey;
+	border-radius: 30px;
+	width: 40%;
+	padding-top:1%;
+	font-family:"courier";
+	font-size:23px;
+	margin-left: 30%;
+	text-align: center;
+}
+input{
+	border-radius:10px;
+	border-style: solid;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left: 5%;
 }
